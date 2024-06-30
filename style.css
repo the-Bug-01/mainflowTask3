@@ -1,0 +1,98 @@
+body {
+    background-color: lightblue; /* Changed background color */
+    font-family: 'Helvetica Neue', sans-serif; /* Changed font style */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222; /* Darker background for header */
+    color: orange; /* Changed text color */
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: orange; /* Changed link color */
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #222; /* Darker background for footer */
+    color: #eee; /* Lighter text color */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Additional styles for interactive elements */
+#contactForm {
+    margin-bottom: 20px;
+}
+
+.styled-input {
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #bbb; /* Slightly darker border */
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Helvetica Neue', sans-serif; /* Changed font style */
+}
+
+.styled-button {
+    padding: 10px 20px;
+    background-color: #28a745; /* Changed button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.styled-button:hover {
+    background-color: #218838; /* Changed hover color */
+}
+
+.submit-button {
+    background-color: #17a2b8; /* Changed submit button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #138496; /* Changed submit button hover color */
+}
+
+#toggleMenu {
+    margin-bottom: 20px;
+}
+
+#toggleContent {
+    margin-bottom: 20px;
+}
+
+#formResponse {
+    margin-top: 10px;
+    color: green;
+    transition: opacity 0.5s;
+}
+
+#dynamicContent {
+    display: block;
+}

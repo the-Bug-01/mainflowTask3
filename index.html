@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Webpage</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+   
+<body>
+    <header >
+        <h1 >Interactive Webpage</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to our interactive webpage!</p>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name" class="styled-input" autocapitalize="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email" class="styled-input" autocapitalize="email"><br><br>
+            <label for="phone">Phone Number: +91</label>
+            <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number" class="styled-input" maxlength="10" autocomplete="tel"><br><br>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required placeholder="Enter your address" class="styled-input" maxlength="40" autocomplete="address"><br><br>
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" required placeholder="Enter your city" class="styled-input" autocomplete="address-level2"><br><br>
+            <input type="submit" value="Submit" class="submit-button">
+        </form>
+        <div id="formResponse" class="hidden"></div>
+    </section>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to our website! We are a team of passionate individuals dedicated to providing the best products and services.</p>
+        <h3>Our Mission</h3>
+        <p>Our mission is to empower individuals and businesses through innovative solutions and exceptional customer service.</p>
+        <h3>Our Values</h3>
+        <ul>
+            <li>Integrity</li>
+            <li>Innovation</li>
+            <li>Customer Focus</li>
+            <li>Teamwork</li>
+        </ul>
+        <h3>Our Team</h3>
+        <div class="team-member">
+            <img src="image/person1.jpeg" alt="Member 1" height="200">
+            <h4>John Doe</h4>
+            <p>CEO</p>
+            <p>john.doe@example.com</p>
+        </div>
+        <div class="team-member">
+            <img src="image/person2.jpg  " alt="Member 2" height="200">
+            <h4>Jane Smith</h4>
+            <p>CTO</p>
+            <p>jane.smith@example.com</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Please feel free to reach out to us with any questions or inquiries.</p>
+        <button id="toggleContent" class ="submit-button">Toggle Content</button>
+        <div id="dynamicContent">
+            <p>Dynamic content goes here.</p>
+            <p>You can add more paragraphs or other content here.</p>
+            <p>Toggle the button to hide or show the content.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2022 Interactive Webpage. All rights reserved.</p>
+    </footer>
+</body>
+</html>
